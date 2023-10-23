@@ -8,4 +8,3 @@ const deliveryClient = KontentDelivery.createDeliveryClient({
 
 const response = await deliveryClient.item('my_article')
   .toPromise();
-// EndDocSection
